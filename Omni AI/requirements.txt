@@ -1,0 +1,12 @@
+PyQt6
+PyAutoGUI
+pyyaml
+requests
+aiohttp
+apscheduler
+pyttsx3
+speechrecognition
+google-generativeai
+python-dotenv
+sqlite3
+psutil

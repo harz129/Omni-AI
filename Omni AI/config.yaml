@@ -1,0 +1,30 @@
+study_mode:
+  trigger: "start study mode"
+  actions:
+    - open_url: "https://www.youtube.com"
+    - open_url: "https://chat.openai.com"
+    - open_url: "https://gemini.google.com"
+    - open_url: "https://notebooklm.google.com"              # File Manager
+    - open_url: "https://web.whatsapp.com"
+    - open_url: "https://www.google.com"    # New tab for research
+    - start_timer: 60
+    - speak: "Study mode activated. Lock in."
+
+coding_mode:
+  trigger: "time to code"
+  actions:
+    - open_url: "https://www.youtube.com"
+    - open_url: "https://github.com"
+    - open_url: "https://chat.openai.com"
+    - open_url: "https://gemini.google.com"
+    - open_app: "C:\\Users\\Lalit Goyal\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe""                  # VS Code
+    - open_app: "C:\\Users\\Lalit Goyal\\AppData\\Roaming\\Microsoft\\Internet Explorer\\Quick Launch\\User Pinned\\TaskBar"              # File Manager
+    - open_app: "C:\\Program Files\\Google\\Chrome\\Application\\chrome_proxy.exe" --profile-directory=Default --app-id=jdgdcfgjhgdmbgndbkdnjneocafddgal"
+    - speak: "Coding mode on. Build something crazy."
+
+relax_mode:
+  trigger: "i want to relax"
+  actions:
+    - open_url: "https://www.youtube.com"
+    - open_url: "https://chat.openai.com"
+    - speak: "Relax mode activated. Chill."
